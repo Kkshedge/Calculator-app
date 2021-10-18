@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+ 		<title>Document</title>
+ 	</head>
+ 	<body align="center">
+ 		<h1>Calculator app using Angular</h1>
+ 		<input type="number" name="num1" [(ngModel)]="num1">
+ 		<input type="number" name="num2" [(ngModel)]="num2">
+ 		<br>
+ 		<button (click)="add()">Addition </button>
+ 		<button (click)="sub()">Subtraction </button>
+ 		<button (click)="mul()">Multiplication </button>
+ 		<button (click)="div()">Division </button>
+ 		<button (click)="fac()">Factorial</button>
+		<button (click)="prime()">Prime </button>
+ 		<br>
+ 		<h3>Result: {{num3}}</h3>
+ 		<h3>Result for Prime: {{num4 ? "True" : "False"}}</h3>
+ 	</body>
+</html>
+<router-outlet></router-outlet>

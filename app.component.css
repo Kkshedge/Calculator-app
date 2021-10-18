@@ -1,0 +1,35 @@
+h1 {
+	font-family: Product Sans;
+ 	text-align: center;
+}
+input {
+ 	font-size: 15px;
+ 	padding: 12px 20px;
+ 	margin: 8px 0;
+ 	box-sizing: border-box;
+}
+input:hover {
+	background-color: #f1f1f2;
+}
+button {
+	font-family: Product Sans;
+ 	padding: 8px;
+ 	margin: 5px;
+ 	border-style: solid;
+ 	border-color: #4CAF50;
+ 	border-radius: 5px;
+ 	background-color: white;
+ 	transition-duration: 0.2s;
+}
+button:hover {
+ 	background-color: #4CAF50;
+}
+button:focus {
+ 	padding: 6px;
+}
+body {
+ 	background-color: #fad9af;
+ 	font-family: Product Sans;
+ 	border-style: solid;
+ 	border-width: 2px;
+}
